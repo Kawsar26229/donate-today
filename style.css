@@ -58,7 +58,7 @@ p {
     position: relative;
     text-align: center;
     top: 25%;
-    width: 50%;
+    width: 60%;
 }
 
 .hero-heading {
@@ -186,20 +186,36 @@ input[type=number] {
 }
 
 /* Feature Section */
-.feature-content {
-    text-align: left;
-    margin-left: 18.5%;
-    height: 80vh;
+.feature-section {
     display: flex;
+    margin-bottom: 100px;
+}
+
+#feature-content {
+    padding-left: 350px;
+}
+
+.feature-image-second {
+    margin-left: 300px;
+}
+
+#feature-second {
+    max-width: 630px;
+    margin-left: -250px;
+}
+
+.feature-description {
+    font-size: 20px;
+    margin-bottom: 40px;
 }
 
 .half-width {
     width: 50%;
 }
 
-.feature-image {
-    width: 150%;
-    padding-left: 5%;
+.half-width img {
+    width: 60%;
+    margin-left: 5%;
 }
 
 /* Update Section */
