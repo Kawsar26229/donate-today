@@ -25,6 +25,7 @@ h3 {
 
 p {
     margin: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
 /* Buttons */
@@ -56,4 +57,26 @@ p {
     background-color: #ffeeee;
     border: 2px solid #FF5959;
     color: #FF5959;
+}
+
+.icons {
+    width: 55px;
+}
+
+.icons img {
+    width: 100%;
+}
+
+.card {
+    width: 15%;
+    padding: 50px 20px;
+    border-radius: 5px;
+}
+
+.card-green {
+    background-color: #4f9da61f;
+}
+
+.plan-description {
+    font-size: 14px;
 }
