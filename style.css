@@ -218,6 +218,35 @@ input[type=number] {
     margin-left: 5%;
 }
 
+/* Mission Section */
+.mission-section {
+    display: flex;
+    width: 1140px;
+    margin: 20px auto;
+}
+
+.mission-header {
+    text-align: center;
+}
+
+.mission-description {
+    width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.mission-content {
+    background-color: white;
+    margin: 30px;
+    padding: 35px 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #ccc;
+}
+
+.mission-section p {
+    margin-bottom: 40px;
+}
+
 /* Update Section */
 .update-content {
     margin-bottom: 150px;
